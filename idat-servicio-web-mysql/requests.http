@@ -6,8 +6,8 @@ GET http://localhost:8080/demo/all
 POST http://localhost:8080/demo/add
 Content-Type: application/x-www-form-urlencoded
 
-name=Alumno
-&email=hola@gmail.com
+name=Josue
+&email=josue@gmail.com
 
 ###
 
@@ -15,8 +15,8 @@ PUT http://localhost:8080/demo/edit
 Content-Type: application/x-www-form-urlencoded
 
 id=1
-&name=Ernesto Anaya
-&email=feanaya@idat.edu.pe
+&name=Guillermo
+&email=guillermo@idat.edu.pe
 
 ###
 
