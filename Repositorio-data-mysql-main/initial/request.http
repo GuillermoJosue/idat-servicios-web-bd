@@ -1,0 +1,30 @@
+
+GET http://localhost:8080/demo/all
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Guillermo3
+&email=guillermo3@gmail.com
+###
+
+PUT http://localhost:8080/demo/edit
+Content-Type: application/x-www-form-urlencoded
+
+id=1
+&name=GuillermoEdit1
+&email=guillermoEdit1@gmail.com
+###
+
+GET http://localhost:8080/demo/ver/1
+###
+
+DELETE http://localhost:8080/demo/del
+Content-Type: application/x-www-form-urlencoded
+
+id=3
+###
+
+GET http://localhost:8080/demo/get/report
+
